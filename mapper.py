@@ -10,7 +10,7 @@ import sys
 
 for line in sys.stdin:
     data = line.strip().split("\t")
-    if (len(data) != 6):
+    if (len(data) != 6): # Esto modificado
 
         continue
 
